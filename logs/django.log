@@ -1,0 +1,9 @@
+[INFO    :   django.utils.autoreload] - 2024-01-14 14:26:21,197 : run_with_reloader @0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-14 14:26:23,517 : log_response @0241: Not Found: /
+[WARNING :             django.server] - 2024-01-14 14:26:23,517 : log_message @0212: "GET / HTTP/1.1" 404 2167
+[WARNING :            django.request] - 2024-01-14 14:26:23,764 : log_response @0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-14 14:26:23,767 : log_message @0212: "GET /favicon.ico HTTP/1.1" 404 2218
+[DEBUG   :               app_1.views] - 2024-01-14 14:26:45,133 : index @0022: Index page requested.
+[INFO    :             django.server] - 2024-01-14 14:26:45,134 : log_message @0212: "GET /hw_1/ HTTP/1.1" 200 284
+[DEBUG   :               app_1.views] - 2024-01-14 14:27:46,224 : about @0040: About page requested.
+[INFO    :             django.server] - 2024-01-14 14:27:46,224 : log_message @0212: "GET /hw_1/about/ HTTP/1.1" 200 266
