@@ -7,3 +7,10 @@
 [INFO    :             django.server] - 2024-01-14 14:26:45,134 : log_message @0212: "GET /hw_1/ HTTP/1.1" 200 284
 [DEBUG   :               app_1.views] - 2024-01-14 14:27:46,224 : about @0040: About page requested.
 [INFO    :             django.server] - 2024-01-14 14:27:46,224 : log_message @0212: "GET /hw_1/about/ HTTP/1.1" 200 266
+[INFO    :   django.utils.autoreload] - 2024-01-14 14:49:43,235 : run_with_reloader @0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-14 14:49:48,968 : log_response @0241: Not Found: /
+[WARNING :             django.server] - 2024-01-14 14:49:48,969 : log_message @0212: "GET / HTTP/1.1" 404 2167
+[DEBUG   :               app_1.views] - 2024-01-14 14:50:13,040 : index @0022: Index page requested.
+[INFO    :             django.server] - 2024-01-14 14:50:13,041 : log_message @0212: "GET /hw_1/ HTTP/1.1" 200 284
+[DEBUG   :               app_1.views] - 2024-01-14 14:54:12,327 : index @0022: Index page requested.
+[INFO    :             django.server] - 2024-01-14 14:54:12,328 : log_message @0212: "GET /hw_1/ HTTP/1.1" 200 284
