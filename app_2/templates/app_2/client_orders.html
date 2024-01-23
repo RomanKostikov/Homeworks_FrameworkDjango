@@ -1,0 +1,26 @@
+{% extends 'app_2/base.html' %}
+
+{% block title %}{{ user.name }}'s Orders{% endblock %}
+
+{% block content %}
+    <h1>Все заказы пользователя: {{ client.name }} (id={{ client.id }})</h1>
+    {% if orders %}
+        {% for order in orders %}
+            <h2>Заказ №{{ order.id }}</h2>
+            <p>Дата создания: {{ order.order_date }}</p>
+            <p>Общая стоимость: {{ order.order_sum }}</p>
+            <h3>Товары:</h3>
+                {% for key, value in products.items %}
+                    {% if key == order.id %}
+                        {% for product in value %}
+                            <p>{{ product }}</p>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+        {% endfor %}
+    {% elif client.id == NULL %}
+        <p>Нет такого клиента</p>
+     {% else %}
+        <p>Заказов нет</p>
+    {% endif %}
+{% endblock %}

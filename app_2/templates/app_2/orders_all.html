@@ -1,0 +1,20 @@
+{% extends 'app_2/base.html' %}
+{% block title %} Заказы {% endblock %}
+
+
+{% block content %}
+<h1>Список всех заказов</h1>
+
+{% for order in orders %}
+<p>
+    id заказа={{ order.id }} <br>
+    Клиент: id={{order.client.id}} {{ order.client }} <br>
+    {{ order.product.all }}
+    <br> Общая стоимость заказа: {{ order.order_sum }} <br>
+    Дата создания заказа: {{ order.order_date }} <br>
+</p>
+<br>
+{% endfor %}
+
+
+{% endblock %}

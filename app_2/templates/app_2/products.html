@@ -1,0 +1,17 @@
+{% extends 'app_2/base.html' %}
+{% block title %} Продукт {% endblock %}
+
+{% block content %}
+<h1>Cписок продукции</h1> <br>
+{% for product in products %}
+<p>id: {{ product.id }}</p>
+<p>наименование: {{ product.title }}</p>
+<p>количество: {{ product.count }}</p>
+<p>стоимость: {{ product.price }}</p>
+<p>описание: {{ product.description }}</p>
+<p>дата создания: {{ product.add_date }}</p>
+<br>
+{%  endfor %}
+
+
+{% endblock %}

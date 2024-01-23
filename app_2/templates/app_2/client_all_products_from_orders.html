@@ -1,0 +1,15 @@
+{% extends 'app_2/base.html' %}
+
+{% block title %}{{ client.name }}'s Products for last  {{ days }} days {% endblock %}
+
+{% block content %}
+<h2>Все продукты пользователя: {{ client.name }} (id={{ client.id}}) за последние {{ days }} дн</h2>
+{% for product in product_set %}
+<ul>
+    <li>
+        {{ product }}
+    </li>
+</ul>
+
+{% endfor %}
+{% endblock %}

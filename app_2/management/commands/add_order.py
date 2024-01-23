@@ -19,8 +19,9 @@ class Command(BaseCommand):
 
         order = Order(
             client=client,
-            product=product,
+            # product=product,
             order_sum=product.price * product.count
         )
         order.save()
+        order.product.set([product])
         self.stdout.write(self.style.SUCCESS(f'Added new order: {order}'))
