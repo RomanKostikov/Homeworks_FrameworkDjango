@@ -369,3 +369,315 @@ django.template.exceptions.TemplateDoesNotExist: app_2/client_orders.html
 [INFO    :             django.server] - 2024-01-23 21:58:28,923 : log_message @0212: "GET / HTTP/1.1" 200 3062
 [INFO    :   django.utils.autoreload] - 2024-01-23 22:04:18,726 : run_with_reloader @0668: Watching for file changes with StatReloader
 [INFO    :             django.server] - 2024-01-23 22:05:04,302 : log_message @0212: "GET /shop/client_orders/5 HTTP/1.1" 200 4010
+[INFO    :   django.utils.autoreload] - 2024-01-24 11:48:36,688 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 11:49:11,355 : log_message @0212: "GET /shop/client_products_sorted/6/1 HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-01-24 11:49:11,399 : log_message @0212: "GET /shop/client_products_sorted/6/1/ HTTP/1.1" 200 3190
+[WARNING :            django.request] - 2024-01-24 11:49:11,496 : log_response @0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-24 11:49:11,497 : log_message @0212: "GET /favicon.ico HTTP/1.1" 404 3627
+[INFO    :             django.server] - 2024-01-24 11:49:20,686 : log_message @0212: "GET /shop/client_products_sorted/6/2/ HTTP/1.1" 200 3190
+[INFO    :             django.server] - 2024-01-24 11:49:29,784 : log_message @0212: "GET /shop/client_products_sorted/6/3/ HTTP/1.1" 200 3190
+[INFO    :             django.server] - 2024-01-24 11:49:38,180 : log_message @0212: "GET /shop/client_products_sorted/6/4/ HTTP/1.1" 200 3190
+[INFO    :   django.utils.autoreload] - 2024-01-24 11:51:45,411 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 11:51:54,477 : log_message @0212: "GET /shop/client_products_sorted/6/1/ HTTP/1.1" 200 3310
+[INFO    :             django.server] - 2024-01-24 11:52:08,872 : log_message @0212: "GET /shop/client_products_sorted/6/2/ HTTP/1.1" 200 3310
+[INFO    :             django.server] - 2024-01-24 11:52:18,724 : log_message @0212: "GET /shop/client_products_sorted/6/3/ HTTP/1.1" 200 3310
+[INFO    :   django.utils.autoreload] - 2024-01-24 11:55:22,272 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 11:55:37,831 : log_message @0212: "GET /shop/client_products_sorted/5/1/ HTTP/1.1" 200 3432
+[INFO    :             django.server] - 2024-01-24 11:56:01,254 : log_message @0212: "GET /shop/client_products_sorted/5/0/ HTTP/1.1" 200 3192
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:01:22,660 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:04:56,918 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:04:57,517 : run_with_reloader @0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-28 15:05:00,979 : log_response @0241: Not Found: /shop/product_form/11/
+[WARNING :             django.server] - 2024-01-28 15:05:00,980 : log_message @0212: "GET /shop/product_form/11/ HTTP/1.1" 404 3865
+[WARNING :            django.request] - 2024-01-28 15:05:01,214 : log_response @0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-28 15:05:01,215 : log_message @0212: "GET /favicon.ico HTTP/1.1" 404 3835
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:15:46,472 : run_with_reloader @0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-28 15:16:42,155 : log_response @0241: Not Found: /shop/product_form/1/
+[WARNING :             django.server] - 2024-01-28 15:16:42,156 : log_message @0212: "GET /shop/product_form/1/ HTTP/1.1" 404 3862
+[WARNING :            django.request] - 2024-01-28 15:16:48,289 : log_response @0241: Not Found: /shop/product_form/17/
+[WARNING :             django.server] - 2024-01-28 15:16:48,289 : log_message @0212: "GET /shop/product_form/17/ HTTP/1.1" 404 3865
+[WARNING :            django.request] - 2024-01-28 15:16:50,288 : log_response @0241: Not Found: /shop/product_form/17/
+[WARNING :             django.server] - 2024-01-28 15:16:50,288 : log_message @0212: "GET /shop/product_form/17/ HTTP/1.1" 404 3865
+[ERROR   :            django.request] - 2024-01-28 15:17:11,933 : log_response @0241: Internal Server Error: /shop/product_form/17
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: app_2_product.image_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py", line 86, in product_form
+    product = get_object_or_404(Product, pk=id_product)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 643, in get
+    num = len(clone)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: app_2_product.image_product
+[ERROR   :             django.server] - 2024-01-28 15:17:11,937 : log_message @0212: "GET /shop/product_form/17 HTTP/1.1" 500 145770
+[ERROR   :            django.request] - 2024-01-28 15:17:21,992 : log_response @0241: Internal Server Error: /shop/product_form/11
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: app_2_product.image_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py", line 86, in product_form
+    product = get_object_or_404(Product, pk=id_product)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 643, in get
+    num = len(clone)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: app_2_product.image_product
+[ERROR   :             django.server] - 2024-01-28 15:17:21,996 : log_message @0212: "GET /shop/product_form/11 HTTP/1.1" 500 145770
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:18:45,825 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:18:46,494 : run_with_reloader @0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-28 15:18:52,760 : log_response @0241: Internal Server Error: /shop/product_form/11/
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: app_2_product.image_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py", line 86, in product_form
+    product = get_object_or_404(Product, pk=id_product)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 643, in get
+    num = len(clone)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: app_2_product.image_product
+[ERROR   :             django.server] - 2024-01-28 15:18:52,765 : log_message @0212: "GET /shop/product_form/11/ HTTP/1.1" 500 145780
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:21:11,127 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:21:11,681 : run_with_reloader @0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-28 15:21:16,745 : log_response @0241: Internal Server Error: /shop/product_form/11/
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: app_2_product.image_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py", line 86, in product_form
+    product = get_object_or_404(Product, pk=id_product)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 643, in get
+    num = len(clone)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: app_2_product.image_product
+[ERROR   :             django.server] - 2024-01-28 15:21:16,750 : log_message @0212: "GET /shop/product_form/11/ HTTP/1.1" 500 145917
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:22:02,476 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:22:03,056 : run_with_reloader @0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-28 15:24:20,082 : log_response @0241: Internal Server Error: /shop/product_form/11/
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: app_2_product.image_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py", line 86, in product_form
+    product = get_object_or_404(Product, pk=id_product)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 643, in get
+    num = len(clone)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: app_2_product.image_product
+[ERROR   :             django.server] - 2024-01-28 15:24:20,086 : log_message @0212: "GET /shop/product_form/11/ HTTP/1.1" 500 145917
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:45:52,707 : run_with_reloader @0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-28 15:46:07,434 : log_response @0241: Internal Server Error: /shop/product_form/1/
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py", line 109, in product_form
+    return render(request, "product_form.html", context=context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\.venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: product_form.html
+[ERROR   :             django.server] - 2024-01-28 15:46:07,436 : log_message @0212: "GET /shop/product_form/1/ HTTP/1.1" 500 90143
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:48:32,158 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:48:32,712 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-28 15:48:37,055 : log_message @0212: "GET /shop/product_form/1/ HTTP/1.1" 200 4179
+[INFO    :             django.server] - 2024-01-28 15:52:01,113 : log_message @0212: "POST /shop/product_form/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-28 15:52:01,132 : log_message @0212: "GET /shop/product/1 HTTP/1.1" 200 3175
+[INFO    :             django.server] - 2024-01-28 15:54:00,613 : log_message @0212: "GET /shop/products HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-01-28 15:54:00,631 : log_message @0212: "GET /shop/products/ HTTP/1.1" 200 5385
+[INFO    :             django.server] - 2024-01-28 15:54:05,623 : log_message @0212: "GET /shop/orders HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-01-28 15:54:05,640 : log_message @0212: "GET /shop/orders/ HTTP/1.1" 200 2998
+[INFO    :             django.server] - 2024-01-28 15:54:07,929 : log_message @0212: "GET /about_me HTTP/1.1" 301 0
+[DEBUG   :               app_1.views] - 2024-01-28 15:54:07,936 : about @0040: About page requested.
+[INFO    :             django.server] - 2024-01-28 15:54:07,936 : log_message @0212: "GET /about_me/ HTTP/1.1" 200 264
+[INFO    :             django.server] - 2024-01-28 15:54:13,319 : log_message @0212: "GET / HTTP/1.1" 200 3062
+[INFO    :             django.server] - 2024-01-28 15:54:16,013 : log_message @0212: "GET /shop/clients HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-01-28 15:54:16,025 : log_message @0212: "GET /shop/clients/ HTTP/1.1" 200 3104
+[INFO    :             django.server] - 2024-01-28 15:54:21,509 : log_message @0212: "GET /shop/products/ HTTP/1.1" 200 5385
+[INFO    :   django.utils.autoreload] - 2024-01-28 15:57:28,620 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-28 15:57:34,157 : log_message @0212: "GET /shop/orders/ HTTP/1.1" 200 3427
+[INFO    :             django.server] - 2024-01-28 15:57:43,057 : log_message @0212: "GET /shop/products/ HTTP/1.1" 200 5385
+[INFO    :             django.server] - 2024-01-28 15:57:45,231 : log_message @0212: "GET /shop/clients/ HTTP/1.1" 200 3104
+[INFO    :             django.server] - 2024-01-28 15:57:51,091 : log_message @0212: "GET /shop/products/ HTTP/1.1" 200 5385
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:00:01,902 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:00:02,497 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:00:08,037 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:00:25,199 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:00:42,298 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:01:19,139 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango_HW\app_2\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:01:19,761 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-28 16:02:27,791 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-28 16:03:09,365 : log_message @0212: "GET /shop/product_form/1/ HTTP/1.1" 200 4179
+[INFO    :             django.server] - 2024-01-28 16:03:22,953 : log_message @0212: "GET /shop/product_form/2/ HTTP/1.1" 200 4179
+[INFO    :             django.server] - 2024-01-28 16:04:35,740 : log_message @0212: "POST /shop/product_form/2/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-28 16:04:35,759 : log_message @0212: "GET /shop/product/2 HTTP/1.1" 200 3182
+[INFO    :             django.server] - 2024-01-28 16:04:42,831 : log_message @0212: "GET /shop/products/ HTTP/1.1" 200 5395
+[INFO    :             django.server] - 2024-01-28 16:04:51,869 : log_message @0212: "GET /shop/orders/ HTTP/1.1" 200 3427
